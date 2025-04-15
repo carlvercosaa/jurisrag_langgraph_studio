@@ -23,10 +23,10 @@ The system implements a specialized workflow that includes:
 
 ## 🌟 Key Features
 
-Intelligent Question Decomposition: Divides complex legal questions into simpler components to improve retrieval accuracy.
-Document Quality Assessment: Filters retrieved legal documents based on relevance to the specific query.
-Hallucination Verification: Implements mechanisms to detect and correct incorrect or fabricated information in generated responses.
-Adaptive Workflow: Redirects queries or refines responses as needed throughout the process.
+- Intelligent Question Decomposition: Divides complex legal questions into simpler components to improve retrieval accuracy.
+- Document Quality Assessment: Filters retrieved legal documents based on relevance to the specific query.
+- Hallucination Verification: Implements mechanisms to detect and correct incorrect or fabricated information in generated responses.
+- Adaptive Workflow: Redirects queries or refines responses as needed throughout the process.
 
 ## 📷 Execution Flow
 
@@ -34,22 +34,22 @@ Adaptive Workflow: Redirects queries or refines responses as needed throughout t
 
 ## 📋 Processing Flow
 
-1 - The user submits a legal question.
-2 - The system decomposes the question into multiple specific queries.
-3 - Legal documents are retrieved for each query.
-4 - Document quality is evaluated.
-5 - An initial response is generated for each decomposed question based on approved documents.
-6 - Legal reasoning is evaluated.
-7 - If the reasoning is useful, a final response is generated based on approved reasoning.
-8 - Otherwise, the query is transformed or redirected.
+- 1 - The user submits a legal question.
+- 2 - The system decomposes the question into multiple specific queries.
+- 3 - Legal documents are retrieved for each query.
+- 4 - Document quality is evaluated.
+- 5 - An initial response is generated for each decomposed question based on approved documents.
+- 6 - Legal reasoning is evaluated.
+- 7 - If the reasoning is useful, a final response is generated based on approved reasoning.
+- 8 - Otherwise, the query is transformed or redirected.
 
 ## 📈 Performance Evaluation
 The system includes metrics to evaluate performance:
 
-Response Accuracy: Comparison with reference answers.
-Document Relevance: Rate of relevant documents retrieved.
-Hallucination Detection: Percentage of hallucinations correctly identified.
-Processing Time: Total latency and latency per component.
+- Response Accuracy: Comparison with reference answers.
+- Document Relevance: Rate of relevant documents retrieved.
+- Hallucination Detection: Percentage of hallucinations correctly identified.
+- Processing Time: Total latency and latency per component.
 
 ## 🚀 How to Use
 
